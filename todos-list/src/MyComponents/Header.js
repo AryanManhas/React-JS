@@ -55,6 +55,10 @@ export default function Header(props) {
     );
 }
 
+Header.defaultProps = {
+    
+}
+
 Header.prototype = {
     title : PropTypes.string
 }
